@@ -17,7 +17,8 @@ Pod::Spec.new do |spec|
 
   spec.name         = "EasyEventBus"
   spec.version      = "0.0.1"
-  spec.summary      = "A easy evnen bus for iOS"
+  spec.summary      = "A easy evnet bus for iOS"
+  spec.description  = "A easy event bus for iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/supermanyqq/EasyEventBus.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/supermanyqq/EasyEventBus.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
