@@ -6,7 +6,7 @@ A publish/subscribe EventBus for ios.
 
 ### Cocoapods
 
-```
+```ruby
 pod 'EasyEventBus'
 ```
 
@@ -16,7 +16,7 @@ pod 'EasyEventBus'
 
 For a type of event, you need to create an object that adopt `EasyEvent` protocol to provide an event key
 
-```
+```Swift
 struct Person: EasyEvent {
     static var key: String {
         return "PostEventKey"
@@ -41,7 +41,7 @@ struct Person: EasyEvent {
 
 To subscribe an event, you need pass event type and observer type to the method
 
-```
+```Swift
 // subscribe on main queue by default
 EasyEventBus.shared.subscribe(event: Person.self, target: Observer.self) { (person) in
     // do someting with Person object on main queue
@@ -61,7 +61,7 @@ EasyEventBus.shared.subscribe(event: Person.self, target: Observer.self, queue: 
 
 Post an event from any part of your code.
 
-```
+```Swift
 let person = Person(name: "name", age: 20)
 
 // All subscribers matching the Person.key will receive it
@@ -75,7 +75,7 @@ EasyEventBus.shared.post(event: person, to: Observer.self)
 
 ### 4. Remove observer
 
-```
+```Swift
 // Remove all subscribers matching the Person.key
 EasyEventBus.shared.remove(event: Person.self)
 
