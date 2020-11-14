@@ -1,6 +1,6 @@
 # EasyEventBus
 
-A publish/subscribe EventBus for ios.
+A publish/subscribe EventBus for iOS.
 
 ## Installation
 
