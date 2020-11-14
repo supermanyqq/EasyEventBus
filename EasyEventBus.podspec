@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "EasyEventBus"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "A publish/subscribe EventBus for iOS"
 #  spec.description  = "A publish/subscribe EventBus for iOS"
   spec.homepage     = "https://github.com/supermanyqq/EasyEventBus"
