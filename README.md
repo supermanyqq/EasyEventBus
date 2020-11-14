@@ -18,7 +18,7 @@ From Xcode 11, you can use Swift Package Manager to add EasyEventBus to your pro
 2. In the next page, specify the version resolving rule as "Up to Next Major" with "0.0.5" as its earliest version.
 3. After Xcode checking out the source and resolving the version, you can choose the "EasyEventBus" library and add it to your app target.
 
-![test](Images/add_package.png)
+![test](./Images/add_package.png)
 
 ## Usage
 
