@@ -94,3 +94,7 @@ EasyEventBus.shared.remove(event: Person.self, for: ViewController.self)
 // Remove all subscribers
 EasyEventBus.shared.removeAllObservers()
 ```
+
+## License
+
+EasyEventBus is released under the MIT license. See LICENSE for details.
